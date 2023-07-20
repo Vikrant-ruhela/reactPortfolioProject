@@ -1,15 +1,20 @@
 import { HashLink as Link } from "react-router-hash-link";
+import { FaVuejs } from "react-icons/fa";
+import "../styles/Header.css"
 
 const Header = () => {
     return (
-        <div>Header
+        <nav>
+            <FaVuejs className="icon" />
+            <main>
+                <Link to="/#home" smooth className="link">Home</Link>
+                <Link to="/#projects" smooth className="link">Projects</Link>
+                <Link to="/#contact" smooth className="link">Contact</Link>
+                <Link to="/#about" smooth className="link">About</Link>
+                <button>Resume</button>
+            </main>
 
-
-            <Link to="/#home" smooth>Home</Link>
-            <Link to="/#projects" smooth>Projects</Link>
-            <Link to="/#contact" smooth>Contact</Link>
-            <Link to="/#about" smooth>About</Link>
-        </div>
+        </nav>
 
     )
 }
