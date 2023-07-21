@@ -1,0 +1,19 @@
+.card {
+    /* width: 300px; */
+    height: 270px;
+    overflow: hidden;
+    background-color: #eaeaea;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: first baseline;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 20px;
+}
+
+.card img {
+    width: 270px;
+    height: 190px;
+    border-radius: 20px;
+}

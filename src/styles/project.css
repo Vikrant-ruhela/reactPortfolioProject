@@ -1,0 +1,13 @@
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 90%;
+    height: 500px;
+}
+
+.projectWork {
+    display: flex;
+    gap: 50px;
+}

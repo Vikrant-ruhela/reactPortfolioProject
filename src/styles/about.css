@@ -3,9 +3,17 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    color: #fff;
     margin: auto;
     text-align: justify;
     padding: 0% 10%;
-    background-color: #222831;
+    gap: 3rem;
+    height: 400px;
+    background-color: #fff;
+    color: #000000;
+
+}
+
+#about img {
+    /* width: 500px; */
+    mix-blend-mode: multiply;
 }

@@ -23,16 +23,17 @@ main {
 button {
     padding: 11px 28px;
     border: 1px solid #222831;
+    color: #222831;
+    background-color: #fff;
     border-radius: 18px;
     font-size: 1.2rem;
-    background-color: #222831;
-    color: #fff;
+    margin: 1rem;
 }
 
 button:hover {
     border: 1px solid #222831;
-    color: #222831;
-    background-color: #fff;
+    background-color: #222831;
+    color: #fff;
 }
 
 .link {
