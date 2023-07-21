@@ -1,0 +1,43 @@
+#contact {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 500px;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.basicDetails {
+    display: flex;
+    gap: 2rem;
+}
+
+
+
+.basicDetails .name,
+.email {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .message {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.4rem;
+
+}
+
+#contact .message input {
+    padding: 30px 60px;
+}
+
+
+
+#contact input {
+    padding: 12px 20px;
+    border-radius: 32px;
+    border: 1px solid #eaeaea;
+    background-color: #eaeaea;
+    margin: 4px 0;
+}

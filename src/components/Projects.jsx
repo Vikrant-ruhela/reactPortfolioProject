@@ -4,6 +4,7 @@ import Card from "./Card";
 import { useState } from "react";
 import frontend1 from "../assets/frontend1.png"
 import frontend2 from "../assets/frontend2.png"
+import { motion } from "framer-motion"
 
 const Projects = () => {
     let [frontendProject, setfrontendProject] = useState(true)
@@ -23,7 +24,8 @@ const Projects = () => {
                 <button id="frontendWork" onClick={() => { setfrontendProject(true); selectbutton1(true); selectbutton2(false) }} style={button1 ? design : null} >Frontent Work</button>
                 <button id="backendWork" onClick={() => { setfrontendProject(false); selectbutton2(true); selectbutton1(false) }} style={button2 ? design : null} >Backend Work</button>
             </div>
-            <div className="projectWork">
+            <motion.div className="projectWork"
+                animate={{ opacity: 1, x: 100 }}>
                 {frontendProject ? <> <Card src={frontend1} text={'Frontend project with html,css'} />
                     <Card src={frontend2} text={'Frontend project with Reactjs'} />
                 </> : <>
@@ -32,7 +34,7 @@ const Projects = () => {
                 </>
                 }
 
-            </div>
+            </motion.div>
         </div>
     )
 }

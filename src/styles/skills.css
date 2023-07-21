@@ -5,8 +5,8 @@
     width: 80%;
     margin: auto;
     flex-direction: column;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .row {
