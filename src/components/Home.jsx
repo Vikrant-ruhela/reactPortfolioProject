@@ -1,13 +1,17 @@
 import "../styles/Home.css"
-import Heading from "./Heading"
 import Paragraph from "./Paragraph"
 import ProfilePic from "../assets/profilePic.png"
+import Typewriter from 'react-ts-typewriter';
+
 
 function Home() {
+
     return (
         <div id="home">
-            <Heading text="MERN STACK WEB DEVELOPER" className="heading" />
-            <Paragraph text="I design and code beautifully simple things, and I love what I do." className="para" />
+            <h1>
+                <Typewriter text={['MERN STACK WEB DEVELOPER', 'FULL STACK WEB DEVELOPER']} loop={true} delay={100} speed={300} />
+            </h1>
+            <Paragraph text="I design and code beautifully simple things, and I love what I do." fontsize="1.2rem" />
             <img src={ProfilePic} alt="profilepic" />
         </div>
     )

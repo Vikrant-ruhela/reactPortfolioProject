@@ -1,0 +1,20 @@
+#skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+img[alt='skill'] {
+    height: 230px;
+}

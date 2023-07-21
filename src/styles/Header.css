@@ -9,7 +9,8 @@ nav {
 }
 
 .icon {
-    font-size: 3.5rem;
+    font-size: 3.5rem !important;
+    color: #222831 !important;
 }
 
 main {
@@ -35,8 +36,8 @@ button:hover {
 }
 
 .link {
-    text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: #222831;
+    text-decoration: none !important;
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+    color: #222831 !important;
 }

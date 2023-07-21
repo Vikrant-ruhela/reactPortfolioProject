@@ -4,13 +4,20 @@
     justify-content: center;
     width: 100%;
     flex-direction: column;
-    gap: 3rem;
+    gap: 1.6rem;
     height: 550px;
-    background-color: #eaeaea;
+    background-color: #fff;
+    margin-top: 2rem;
 }
 
+h1 {
+    font-size: 3rem;
+}
 
-
-img {
+img[alt="profilepic"] {
     width: 300px;
+}
+
+img[alt="devices"] {
+    width: 800px;
 }

@@ -15,7 +15,9 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
     "react-router-dom": "^6.14.2",
-    "react-router-hash-link": "^2.4.3"
+    "react-router-hash-link": "^2.4.3",
+    "react-ts-typewriter": "^0.1.8-b",
+    "typewriter-effect": "^2.20.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.14",

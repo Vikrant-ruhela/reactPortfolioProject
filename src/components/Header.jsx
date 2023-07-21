@@ -8,6 +8,7 @@ const Header = () => {
             <FaVuejs className="icon" />
             <main>
                 <Link to="/#home" smooth className="link">Home</Link>
+                <Link to="/#skills" smooth className="link">Skills</Link>
                 <Link to="/#projects" smooth className="link">Projects</Link>
                 <Link to="/#contact" smooth className="link">Contact</Link>
                 <Link to="/#about" smooth className="link">About</Link>

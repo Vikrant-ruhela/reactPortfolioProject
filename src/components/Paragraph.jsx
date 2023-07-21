@@ -1,7 +1,7 @@
 
-const Paragraph = ({ text }) => {
+const Paragraph = ({ text, fontsize }) => {
     return (
-        <div>{text}</div>
+        <p style={{ fontSize: fontsize }}>{text}</p>
     )
 }
 
